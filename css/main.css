@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Ghastly Panic Cyr';
+	src: url('../Fonts/Ghastly Panic Cyr.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background-color: palegoldenrod;
+}
+div {
+	width: 85%;
+	margin: auto;
+	background-color: orangered;
+	box-shadow: 0 0 20px 3px rgba(0, 0, 253, 0.4);
+}
+h1 {
+			color: lightblue;
+			font-size: 40px;
+
+			font-family: 'Oswald', sans-serif;
+		}
+img{
+	width: 60%;
+}
+
+p {
+	color: #F0E68C;
+	font-size: 32px;
+			
+	font-family: 'Ghastly Panic Cyr'
+}
+
+a {
+	text-decoration: none;
+	color: #053B50;
+	border-bottom: 2px solid transparent;
+	font-size: 32px;
+	font-family: 'Gogol';
+	src: url('../Fonts/gogol_regular.otf');
+	font-weight: normal;
+	font-style: normal;
+	display: inline-block;
+	transition: 0.5s ease-in;
+	padding: 20spx 0;
+
+}
+
+span {
+	background-color:lightblue;
+}
+li {
+	font-family: 'Ghastly Panic Cyr';
+	src: url('../Fonts/Ghastly Panic Cyr.otf');
+	font-weight: normal;
+	font-style: normal;
+	font-size: 38px;
+	color: #F0E68C;
+	padding: 5px;
+}
+a:hover {
+	border-bottom-color: #053B50;
+}
+		
+		
+		
