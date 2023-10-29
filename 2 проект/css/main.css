@@ -1,0 +1,58 @@
+@font-face{
+font-family: 'DISTROY23';
+			src: url('Fonts/distroy.23.ttf');
+			font-weight: normal;
+			font-style: normal;
+	}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #BEFFF7;
+}
+
+.main {
+	background-color: rgba(166, 246, 255);
+	width: 95%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 15px 10px rgba(166, 200, 250);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	max-width: 490px;
+	max-height: 265px;
+	height: calc(95vw / 2 / 16 * 9);
+	width: calc(90vw - 10px);
+	background-color: #9EDDFF;
+	margin: 5px;
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	font-size: 48px;
+	text-align: center;
+	width: 100%;
+	pedding: 30px 0;
+	font-family: DISTROY23;
+	color: #6499E9;
+}
+
+.img_link{
+	display: block;
+
+}
+div{
+			width: 100px;
+			height: 100px;
+			background-color: #BEADFA;
+			animation-name: colorshow;
+			animation-duration: 12s;
+			animation-iteration-count: infinite;
+
+		}
