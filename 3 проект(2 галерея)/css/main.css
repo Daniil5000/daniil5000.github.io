@@ -1,0 +1,42 @@
+.img-box {
+	column-count: 3;
+	column-gap: 3px;
+	width: 80%;
+	max-width: 1400px;
+	margin: auto;
+}
+
+.image {
+	max-width: 100%;
+	display: block;
+}
+
+.image + .image {
+	margin: 3px;
+}
+
+
+.img-wrapper {
+	display: block;
+	opacity: 0.8;
+	transition: 0.4s;
+	filter: blur(1px);
+	/*filter: blur(2px);*/
+}
+
+
+.img-wrapper + .img-wrapper {
+	margin: 3px 0;
+}
+
+.img-wrapper:hover{
+	/*opacity: 1;
+	filter: sepia(0.1);
+	filter: blightness(2);
+	filter: grayscale(100%);
+	filter: hue-rotate(90deg);
+	filter: invert(5%)*/
+	filter: sepia(0.1);
+}
+
+
