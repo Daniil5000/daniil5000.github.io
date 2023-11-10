@@ -54,3 +54,13 @@
 	font-family: GaneshaType;
 	color: #6499E9;
 }
+
+.main {
+	background-color: rgba(166, 246, 255);  
+	width: 95%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 15px 10px rgba(166, 200, 250);
+	display: flex;
+	flex-wrap: wrap;
+}
